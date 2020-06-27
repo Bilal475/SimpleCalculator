@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div >
+            <input onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" placeholder="0" id="result" type="text" class="result">
+        </div>
+        <div>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="clearRes()" class="clear">C</button>
+        </div>
+        <div>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('7')" class="Btn">7</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('8')" class="Btn">8</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('9')" class="Btn">9</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('*')" class="Btn">x</button>
+        </div>
+        <div>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('4')" class="Btn">4</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('5')" class="Btn">5</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('6')" class="Btn">6</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('-')" class="Btn">-</button>
+        </div>
+        <div>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('1')" class="Btn">1</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('2')" class="Btn">2</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('3')" class="Btn">3</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('+')" class="Btn">+</button>
+        </div>
+        <div>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="getNum('0')" class="Btn2">0</button>
+            <button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='grey'" onclick="answer()" class="Btn2">=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,47 @@
+.main{
+    border: 3px solid grey;
+    width: 300px;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 70px;
+    background-color: aqua;
+}
+.result{
+    width: 96%;
+    background-color: grey;
+    font-size: 30px;
+    color: #fff;
+}
+.clear{
+    width: 98%;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: grey;
+}
+.Btn{
+    width: 60px;
+    margin: 20px 3.5px;
+    font-size: 30px;
+    padding: 10px 10px;
+    background-color: grey;
+    color: #fff;
+}
+.Btn2{
+    width: 46%;
+    margin: 20px 3.5px;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: grey;
+    color: #fff;
+}
+.Btn:hover(){
+    color: black;
+    
+}
+::placeholder{
+    color: #fff;
+    font-size: 30px;
+}
